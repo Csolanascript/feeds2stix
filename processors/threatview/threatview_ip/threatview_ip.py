@@ -91,7 +91,7 @@ def get_local_enrichment(ip, geo_reader, asn_reader):
         pass
 
     return {k: v for k, v in metadata.items() if v is not None}
-    
+
 def create_stix_objects(
     ip_addresses,
     threatview_identity,
